@@ -16,3 +16,16 @@ print(new_array[2])
 print(new_array[4])
 print(new_array[-3])
 print(new_array[-5])
+
+
+# 2. Adding element in an array
+# a. by insert the element 
+import array as arr
+new_array=arr.array("i",[1,2,3,4,5])
+for i in range(0,len(new_array)):
+    print(new_array[i],end=" ")
+print("/n")
+new_array.insert(0,2)
+for i in range(0,len(new_array)):
+    print(new_array[i],end=" ")
+print("/n")
