@@ -1,1 +1,18 @@
+#arrays basic
+import array as arr
+new_array=arr.array("i",[1,2,3,4,5])
+print(new_array.typecode)
+print(new_array)
+print(len(new_array))
 
+# 1. indexing of array 
+import array as arr
+x=list(range(1,100,2))
+new_array=arr.array("i",x)
+for i in range(0,len(new_array)):
+    print(new_array[i],end=" ")
+print("/n")
+print(new_array[2])
+print(new_array[4])
+print(new_array[-3])
+print(new_array[-5])
