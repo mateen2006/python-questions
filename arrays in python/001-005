@@ -51,3 +51,26 @@ new_array[2]=4
 for i in range(0,len(new_array)):
     print(new_array[i],end=" ")
 print("/n")
+
+# 4. deleting the element in an array
+# a. by pop method 
+import array as arr
+new_array=arr.array("i",[1,2,3,4,5,6])
+for i in range(0,len(new_array)):
+    print(new_array[i],end=" ")
+print("/n")
+new_array.pop()
+for i in range(0,len(new_array)):
+    print(new_array[i],end=" ")
+print("/n")
+
+# b. by remove method
+import array as arr
+new_array=arr.array("i",[1,2,3,4,5,6])
+for i in range(0,len(new_array)):
+    print(new_array[i],end=" ")
+print("/n")
+new_array.remove(3)
+for i in range(0,len(new_array)):
+    print(new_array[i],end=" ")
+print("/n")
