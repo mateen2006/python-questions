@@ -74,3 +74,16 @@ new_array.remove(3)
 for i in range(0,len(new_array)):
     print(new_array[i],end=" ")
 print("/n")
+
+
+# slicing the element in an array
+import array as arr
+x=list(range(0,100,2))
+new_array=arr.array("i",x)
+for i in range(0,len(new_array)):
+    print(new_array[i],end=" ")
+print("/n")
+new_arr=new_array[10:20]
+for i in range(0,len(new_arr)):
+    print(new_arr[i],end=" ")
+print("/n")
