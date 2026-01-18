@@ -76,7 +76,7 @@ for i in range(0,len(new_array)):
 print("/n")
 
 
-# slicing the element in an array
+# 5. slicing the element in an array
 import array as arr
 x=list(range(0,100,2))
 new_array=arr.array("i",x)
